@@ -1,0 +1,33 @@
+{
+  "name": "papertrail-stream",
+  "version": "1.0.0",
+  "description": "Stream data from papertrail as a readable stream",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eugeneware/papertrail-stream"
+  },
+  "keywords": [
+    "papertrail",
+    "stream",
+    "streaming",
+    "tail",
+    "log",
+    "logs",
+    "logging"
+  ],
+  "author": "Eugene Ware <eugene@noblesamurai.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/eugeneware/papertrail-stream/issues"
+  },
+  "dependencies": {
+    "request": "^2.67.0"
+  },
+  "devDependencies": {
+    "tape": "~2.3.2"
+  }
+}
