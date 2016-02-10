@@ -47,7 +47,7 @@ function papertrailStream(token, query, reverse) {
         r.push(evt);
       });
 
-      if (data.reached_beginning) {
+      if (data.reached_beginning || data.reached_end) {
         r.push(null);
       } else {
         setTimeout(fetch, 500);
